@@ -179,6 +179,23 @@ ul {
     background-repeat: repeat;
 }
 
+.Cent, .cat_menu .category-Cent:hover a, .blog li.category-Cent:hover, .single body.category-Cent, .archive body.category-Cent {
+    background: #f9a2c5;
+    text-decoration: none;
+    font-family: 'Fira Mono',monospace;
+}
+
+.Cent:hover{
+    background: white;
+    border-bottom-color: rgb(34, 34, 34);
+    border-bottom-left-radius: 27.64px;
+    border-bottom-right-radius: 27.64px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.9700000286102295);
+    background-repeat: repeat;
+}
+
 .projects li {
     display: inline;
 }
